@@ -1,0 +1,275 @@
+/*FORMATAÇÃO TOPO*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    margin: 0 4vw 0 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    margin: 1.5vw 0 2vw 1vw;
+} 
+header nav ul li p.pp button {
+    background: rgba(16, 144, 203, 1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+header nav ul li p.casa {
+    color: #1090CB;
+}
+
+    /*FORMATAÇÃO BANNER*/
+
+main section.banner{
+    background: #E8F4FA;
+    padding: 5vw;
+}
+section.banner div.divisao {
+    display: flex ;
+}
+section.banner div.divisao div.texto h1{
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.5vw;
+    margin: 7vw 14vw 0 0;
+}
+section.banner div.divisao div.texto p {
+    color: #5C5C5C;
+    margin: 2vw 9vw 4vw 0;
+    line-height: 1.5vw;
+}
+
+section.banner div.divisao div.texto p button {
+    padding: 15px 40px 15px 40px;
+}
+section.banner div.divisao div.texto p button.contat {
+    background-color: #1090CB;
+    color: white;
+}
+section.banner div.divisao div.texto p button.view{
+    background-color: white;
+    color: #1090CB;
+    border: 1px solid #1090CB;
+}
+section.banner div.divisao div.imagem img{
+margin: 0 15vw 0 0;
+padding: 1%;
+}
+
+/*FORMATAÇÃO CONTEÚDO*/
+
+section.itens ul {
+    display: flex;
+}
+
+section.conteudo h2.tito {
+    text-align: center;
+    font-size: 2rem;
+    margin: 5vw 0 2vw 0;
+    font-weight: bolder;
+    border-top:2px solid ghostwhite ;
+    padding: 5vw 0 0 0;
+}
+section.conteudo p.espaco {
+    text-align: center;
+    color: #5C5C5C;
+    line-height: 2vw;
+}
+section.conteudo div.viv {
+    display: flex;
+}
+section.conteudo div.vizinha h2{
+    font-size: 2rem;
+    margin: 10vw 12vw 3vw 5vw;
+    font-weight: bolder;
+}
+section.conteudo div.vizinha p {
+    color: #5C5C5C;
+    margin: 0 18vw 0 5vw;
+    line-height: 1.5vw;
+}
+section.conteudo div.inha img {
+    margin:  0 10vw 7vw 0;
+}
+section.conteudo div.arroz {
+    display: flex;
+}
+section.conteudo div.z h2 {
+    font-size: 2rem;
+    margin: 10vw 20vw 3vw 0;
+    font-weight: bolder;
+}
+section.conteudo div.z p {
+    color: #5C5C5C;
+    margin: 0 22vw 0 0;
+    line-height: 1.5vw;
+}
+section.conteudo div.arroz div.a img {
+    margin: 0 10vw 7vw 5vw;
+}
+section.caixas {
+    display: flex;
+    margin: 5vw;
+}
+section.caixas div {
+    border-radius: 20px;
+}
+section.caixas div p {
+    font-size: 1rem;
+    line-height: 1.6vw;
+    text-align: center;
+}
+section.caixas div.caixinha h3 {
+    color: white;
+    font-weight: bolder;
+    margin: 2vw;
+    text-align: center;
+    font-size: 1.8rem;
+}
+section.caixas div.caixinha p {
+    color: white;
+}
+section.caixas div button {
+    text-align: center;
+}
+section.caixas div.caixinha {
+    background: rgba(16, 144, 203, 1);
+    margin: 0 4vw 4vw 4vw;
+    padding: 2vw;
+
+}
+section.caixas div.caixona h3 {
+    font-weight: bolder;
+    margin: 2vw;
+    text-align: center;
+    font-size: 1.8rem;
+}
+section.caixas div.caixona {
+    background: rgba(244, 244, 244, 1);
+        margin: 0 4vw 4vw 4vw;
+        padding: 2vw;
+    
+}
+
+section.pesquisa {
+    background: rgba(232, 244, 250, 1);
+}
+section.pesquisa h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding: 4vw;
+    line-height: 2.4vw;
+}
+section.pesquisa p {
+    text-align: center;
+}
+section.itens ul li{
+    display: flex;
+    margin: 0 7vw 0 7vw;
+}
+section.itens ul li {
+    margin: 3vw 7vw 2vw 7vw;
+}
+section.caixas div.caixona p button {
+    background: #1090CB;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+section.caixas div.caixinha p button {
+    background: white;
+    padding: 10px 20px 10px 20px;
+    color: #1090CB;
+    margin: 20px 0 0 0;
+}
+section.pesquisa div.a {
+    display: flex;
+    justify-content: center;
+}
+section.pesquisa div.a p button {
+    background: black;
+    padding: 20px;
+    color: white;
+    margin: 0 0 7vw 10px;
+}
+/*FORMATAÇÃO RODAPÉ*/
+
+footer div.diva {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.diva ul {
+    margin: 4vw 3vw 2vw 6vw;
+}
+footer div.diva  p {
+    margin: 1vw 0 1vw 0 ;
+}
+footer div.diva p.negrito {
+    font-weight: bolder;
+}
+footer div.diva ul li p.cor {
+    color: #00329B;
+    font-weight: bolder;
+}
+footer p.oi {
+    text-align: center;
+    margin: 20px 0 2vw 0;
+    border-top: 3px solid #D2D2D2;
+    padding: 1vw;
+}
+section.pesquisa form input.email {
+    width: 30vw;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*FORMATAÇÃO ITENS*/
+ section.itens ul {
+    display: flex;
+    margin: 2vw 0 0 0;
+ }
+ section.itens ul img {
+    margin-right: 20px;
+ }
+ section.itens ul li p {
+    color: #868686;
+ }
+ section.itens ul li p span {
+    font-weight: bolder;
+    color: black;
+ }
+ section.itens ul li img.q {
+    background: #ECFFDA;
+    padding: 1.3vw;
+    border-radius: 20px;
+ }
+ section.itens ul li img.w {
+    background: #EFEAFF;
+    padding: 1.3vw;
+    border-radius: 20px;
+ }
+ section.itens ul li img.r {
+    background: #DAE6FF;
+    padding: 1.3vw;
+    border-radius: 20px;
+ }
+ section.itens ul li img.t {
+    background: #FFE5DA;
+    padding: 1.3vw;
+    border-radius: 20px;
+ }
+
+
+
